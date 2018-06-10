@@ -5,3 +5,11 @@
 #description {
 	text-align: center;
 }
+
+#survey-form {
+	width: 94%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 0px auto;
+	padding: 4px;
+}
