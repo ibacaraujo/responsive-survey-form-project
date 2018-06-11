@@ -23,7 +23,7 @@ label {
 	font-size: 22px;
 }
 
-#radiogroup {
-	font-family: 'EB Garamond', serif;
-	font-size: 22px;
+#paradigm {
+	display: inline-block;
+	margin-top: 10px;
 }
