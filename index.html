@@ -27,13 +27,13 @@
     <br>
     <label id="paradigm">What is your preferred learning paradigm?</label>
     <br>
-    <radiogroup>
-      <input type="radio" id="supervised" value="supervised-learning" name="Supervised Learning" /> <label>Supervised Learning</label>
+    <div class="radio-group">
+      <label for="supervised"><input type="radio" id="supervised" value="supervised-learning" name="learning-paradigm" required />Supervised Learning</label>
       <br>
-      <input type="radio" id="unsupervised" value="unsupervised-learning" name="Unsupervised Learning" /> <label>Unsupervised Learning</label>
+      <label for="unsupervised"><input type="radio" id="unsupervised" value="unsupervised-learning" name="learning-paradigm"  required /> Unsupervised Learning</label>
       <br>
-      <input type="radio" id="reinforcement" value="reinforcement-learning" name="Reinforcement Learning" /> <label>Reinforcement Learning</label>
-    </radiogroup>
+      <label for="reinforcement"><input type="radio" id="reinforcement" value="learning-paradigm" name="learning-paradigm"/>Reinforcement Learning</label>
+    </div>
   </form>
 </body>
 </html>
