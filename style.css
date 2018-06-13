@@ -16,6 +16,7 @@
 	border-radius: 5px;
 	margin: 0px auto;
 	padding: 4px;
+	background-color: white;
 }
 
 label {
@@ -26,4 +27,8 @@ label {
 #paradigm {
 	display: inline-block;
 	margin-top: 10px;
+}
+
+body {
+	background-color: #8DC7D3;
 }
