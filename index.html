@@ -10,38 +10,42 @@
   <h1 id="title">Survey Form</h1>
   <p id="description">What do you think about a machine learning curriculum?</p>
   <form id="survey-form">
-    <label id="name-label">Name</label>: 
-    <input id="name" type="text" placeholder="Enter your name" required>
-    <br>
-    <label id="email-label">Email</label>: 
-    <input id="email" type="email" placeholder="Enter your email" required>
-    <br>
-    <label id="number-label">Number</label>: 
-    <input id="number" type="number" min="000000000" max="999999999" placeholder="Enter your number" required>
-    <br>
-    <label id="select-label">Sex</label>
-    <select id="dropdown">
-      <option>Male</option>
-      <option>Female</option>
+    <div id="personal-info">
+      <label id="name-label">Name</label>: 
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <br>
+      <label id="email-label">Email</label>: 
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <br>
+      <label id="number-label">Number</label>: 
+      <input id="number" type="number" min="000000000" max="999999999" placeholder="Enter your number" required>
+      <br>
+      <label id="select-label">Sex</label>
+      <select id="dropdown">
+        <option>Male</option>
+        <option>Female</option>
     </select>
-    <br>
-    <label id="paradigm">Which of the following paradigms you are most familiar with?</label>
-    <br>
-    <div class="radio-group">
-      <label for="supervised"><input type="radio" id="supervised" value="supervised-learning" name="learning-paradigm" required />Supervised Learning</label>
-      <br>
-      <label for="unsupervised"><input type="radio" id="unsupervised" value="unsupervised-learning" name="learning-paradigm"  required />Unsupervised Learning</label>
-      <br>
-      <label for="reinforcement"><input type="radio" id="reinforcement" value="learning-paradigm" name="learning-paradigm"/>Reinforcement Learning</label>
     </div>
     <br>
-    <label id="algorithms">Which algorithms do you already know?</label>
-    <br>
-    <div class="checkbox-group">
-      <input type="checkbox" value="linear-regression"><label>Linear Regression</label><br>
-      <input type="checkbox" value="logistic-regression"><label>Logistic Regression</label><br>
-      <input type="checkbox" value="support-vector-machines"><label>Support Vector Machines</label><br>
-      <input type="checkbox" value="neural-networks"><label>Neural Networks</label><br>
+    <div id="questions">
+      <label id="paradigm">Which of the following paradigms you are most familiar with?</label>
+      <br>
+      <div class="radio-group">
+        <label for="supervised"><input type="radio" id="supervised" value="supervised-learning" name="learning-paradigm" required />Supervised Learning</label>
+        <br>
+        <label for="unsupervised"><input type="radio" id="unsupervised" value="unsupervised-learning" name="learning-paradigm"  required />Unsupervised Learning</label>
+        <br>
+        <label for="reinforcement"><input type="radio" id="reinforcement" value="learning-paradigm" name="learning-paradigm"/>Reinforcement Learning</label>
+      </div>
+      <br>
+      <label id="algorithms">Which algorithms do you already know?</label>
+      <br>
+      <div class="checkbox-group">
+        <input type="checkbox" value="linear-regression"><label>Linear Regression</label><br>
+        <input type="checkbox" value="logistic-regression"><label>Logistic Regression</label><br>
+        <input type="checkbox" value="support-vector-machines"><label>Support Vector Machines</label><br>
+        <input type="checkbox" value="neural-networks"><label>Neural Networks</label><br>
+      </div>
     </div>
     <br>
     <textarea name="machine-learning-textarea" rows="10" cols="75">Tell us more about what do you expect from a machine learning curriculum</textarea>
