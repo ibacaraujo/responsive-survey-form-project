@@ -56,9 +56,22 @@ button {
 	margin-top: 10px;
 }
 
-#level {
+#like {
 	display: inline-block;
 	margin-top: 10px;
+}
+
+#like-most {
+	margin-left: 5px;
+}
+
+#hard {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#hard-subject {
+	margin-left: 5px;
 }
 
 body {
